@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const config = {
   connectionLimit: 10,
-  host: 'mydb.tamk.fi',
+  host: process.env.DATABASE,
   user: process.env.user,
   password: process.env.password,
   database: process.env.database
