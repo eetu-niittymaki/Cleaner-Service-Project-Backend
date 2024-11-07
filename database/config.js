@@ -1,6 +1,6 @@
 const config = {
   connectionLimit: 10,
-  host: 'mydb.tamk.fi',
+  host: process.env.HOST,
   user: process.env.USER,
   password: process.env.PASSWORD,
   database: process.env.DATABASE
